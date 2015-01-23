@@ -15,7 +15,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     //using it for size debug
     [MMPlaceHolderConfig defaultConfig].lineColor = [UIColor blackColor];
     [MMPlaceHolderConfig defaultConfig].lineWidth = 1;
